@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Universal Human Experience Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Dark Mode Toggle -->
+    <button id="dark-mode-toggle" class="dark-mode-btn" aria-label="Toggle dark mode">
+        <span class="sun-icon">☀️</span>
+        <span class="moon-icon">🌙</span>
+    </button>
+
+    <!-- Confetti Animation Container -->
+    <div id="confetti-container"></div>
+
+    <!-- Main Quiz Container -->
+    <div class="app">
+        <h1>The Universal Human Experience Test</h1>
+        
+        <div class="quiz">
+            <!-- Streak Counter (hidden by default) -->
+            <div id="streak-display" class="streak-display">
+                <span class="fire-emoji">🔥</span>
+                <span id="streak-count">0</span> streak!
+            </div>
+
+            <!-- Progress Tracker -->
+            <div class="progress-container">
+                <div class="progress-text">
+                    Question <span id="current-question-num">1</span>/<span id="total-questions">5</span>
+                </div>
+                <div class="progress-bar-bg">
+                    <div id="progress-bar" class="progress-bar"></div>
+                </div>
+            </div>
+
+            <!-- Quiz Content -->
+            <h2 id="question">Question goes here</h2>
+            <div id="answer-buttons"></div>
+            <button id="next-btn">Next</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
