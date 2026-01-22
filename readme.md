@@ -24,7 +24,7 @@ The app features dynamic question flow, streak mechanics, and an AI-style person
 - Structuring scalable frontend logic
 
 ## Live Demo
-[Netlify link]
+[(https://humanbehaviorquiz.netlify.app/)]
 
 ## Source Code
 [(https://github.com/StelioD25-hub/Quizz-app)]
