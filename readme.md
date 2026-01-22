@@ -27,4 +27,4 @@ The app features dynamic question flow, streak mechanics, and an AI-style person
 [Netlify link]
 
 ## Source Code
-[GitHub link]
+[(https://github.com/StelioD25-hub/Quizz-app)]
